@@ -24,6 +24,8 @@ body {
   
   .navbar {
     /* background-color: #73919b;   */
+    margin: auto;
+  
     background-color: #73919b;  
     color: #b6d7e2;  
   
@@ -45,7 +47,7 @@ body {
   }
   
   #navbar-subtitle {
-    padding: 2px;
+    padding: 5px;
     font-size: 15px;
     color: linen!important; /* TODO can we do this without the !important */
     text-align: center;
@@ -58,7 +60,7 @@ body {
   /* #planner */
   #plannerContainer {
     /* background-color: #73919b;   */
-    background-color: #b6d7e2;  
+    background-color: #2f697c;  
     /* provides spacing between the top and bottom nav bars and the content */
     margin-top: 20px;
     margin-bottom: 80px;
@@ -78,6 +80,7 @@ body {
   
   /* style container with time in it */
   .timeBox {
+    padding: 15px;
     background-color: linen;  
     color: black;
     height:100%;
@@ -97,22 +100,24 @@ body {
   }
   
   .saveIcon {
+    /* display: inline-block; */
+    padding: 15px;
     background-color: darkturquoise;
     color: linen;
     border-radius: 0px 15px 15px 0px;
-    /* float: right; */
     font-size: 1.5em;
     width: 100%;
     height: 100%;
     text-align: center;
+    
   }
   
   .footer {
     /* set text properties */
-    background-color: #666;
+    background-color:#73919b;
     
     /* sets height of footer*/
-    height: 10%;
+    height: 9%;
     
     /* sets properties for footer border*/
     border-top: solid;
@@ -125,7 +130,7 @@ body {
     width: 100%;
     text-align: center;
   
-    font-size: 10px;
+    font-size: 15px;
     color:linen; 
   }
   
@@ -149,10 +154,6 @@ body {
   
   @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
   
-  .wrapper
-  { 
-    padding: 20px;     
-  } 
   
   @keyframes shadow-pulse
   {
