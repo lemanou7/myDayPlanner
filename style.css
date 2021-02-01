@@ -81,7 +81,7 @@ body {
   /* style container with time in it */
   .timeBox {
     padding: 15px;
-    background-color: linen;  
+    background-color: rgb(60, 199, 199);  
     color: black;
     height:100%;
     width: 100%;
@@ -102,7 +102,7 @@ body {
   .saveIcon {
     /* display: inline-block; */
     padding: 15px;
-    background-color: darkturquoise;
+    background-color: rgb(60, 199, 199);
     color: linen;
     border-radius: 0px 15px 15px 0px;
     font-size: 1.5em;
